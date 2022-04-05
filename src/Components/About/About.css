@@ -1,0 +1,21 @@
+.about-name {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 3vh;
+    margin-top: 20px;
+    text-decoration:underline;
+    text-align: center; 
+}
+
+.about-container {
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 0.25vw;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40%; 
+    text-decoration: none;
+}
+
+.about-container a {
+    text-decoration: none;
+}

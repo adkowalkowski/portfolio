@@ -1,3 +1,7 @@
+.navbar.navbar-expand {
+    border-bottom: 0.25px solid black;
+}
+
 .nav-link {
     font-family: 'Questrial', sans-serif;
 }
