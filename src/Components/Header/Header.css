@@ -1,0 +1,10 @@
+.nav-link {
+    font-family: 'Questrial', sans-serif;
+}
+
+.nav-link:hover {
+    list-style-type: none;
+    text-decoration-color: transparent;
+	color: #315C2B;
+    font-family: 'Questrial', sans-serif;
+}

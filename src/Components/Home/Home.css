@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+.home-name {
+    display: flex;
+    justify-content: center; 
+    font-family: 'Cuprum', sans-serif;
+    font-size: 11vw;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.home-about {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin: 25px;
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 0.25vw;
+    font-size: 2vh;
+    font-size: 5vw;  
+}
+
+@media screen and (min-width: 768px) {
+    .home-container {
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .home-name {
+        grid-column: 1 / 2;
+        font-size: 5.5vw;
+        justify-self: stretch;
+        align-self: end;
+        margin: 25px;
+    }
+
+    .home-about {
+        grid-column: 2 / 3;
+        font-size: 2.5vw;
+        justify-self: stretch;
+        align-self: center;
+        margin: 25px;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+}
