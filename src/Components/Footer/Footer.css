@@ -1,0 +1,32 @@
+.navbar.navbar-expand {
+    border-top: 0.25px solid black;
+}
+
+.nav-link {
+    font-family: 'Questrial', sans-serif;
+}
+
+.nav-link:hover {
+    list-style-type: none;
+    text-decoration-color: transparent;
+	color: #315C2B;
+    font-family: 'Questrial', sans-serif;
+}
+
+.footer-container a {
+    list-style-type: none;
+    text-decoration-color: transparent;
+    color: black;
+    float:right;
+    margin-right: 20px;
+    /* margin-top: 5px; */
+    padding: 15px;
+    font-size: 20px;
+    background-color:lightgray;
+    border-radius: 50%;
+}
+
+.footer-container a:hover {
+    background-color:#95C68C;
+    transform: scale(1.025);
+}

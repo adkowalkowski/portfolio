@@ -2,12 +2,12 @@ import React from "react";
 import './Contact.css'
 
 const Contact = () => {
-    const pdf = '../assets/Kowalkowski_Resume.pdf'
+    
 
     return (
         <div className="contact-container">
         <p className='contact-heading'>CONTACT ME</p>
-        <a target="_blank" href={pdf} download>Download my resume</a>
+        {/* <a className='resume-download' href='https://www.docdroid.net/dxVSMg0/kowalkowski-resume-pdf' download='Kowalkowski_Resume'>Download my resume</a> */}
           <p className='contact-form-text'>
           Fill out the form below to send me an email. I will get back to you
           as soon as possible.
