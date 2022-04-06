@@ -14,11 +14,12 @@ const Projects = () => {
           Projects and other professional work.
         </p>
       </div>
+      <div className='project-cards-container'>
       <Card style={{ width: "25rem" }}>
         <Card.Img
-          variant="top"
+          variant="bottom"
           src={require("../assets/studio_ghiblist.png")}
-          height="400"
+          height="350"
         />
         <Card.Body>
           <Card.Title>Studio Ghiblist</Card.Title>
@@ -33,6 +34,8 @@ const Projects = () => {
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
       </Card>
+      </div>
+      
     </div>
   );
 };
