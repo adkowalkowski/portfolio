@@ -15,14 +15,15 @@ const Projects = () => {
         </p>
       </div>
       <div className='project-cards-container'>
-      <Card style={{ width: "25rem" }}>
-        <Card.Img
+        <div className='row no-gutters'>
+        <Card style={{ width: "25rem" }}>
+        <Card.Img 
           variant="bottom"
           src={require("../assets/studio_ghiblist.png")}
           height="350"
         />
         <Card.Body>
-          <Card.Title>Studio Ghiblist</Card.Title>
+          <Card.Title>LOVE LANGUAGE DIRECTORY</Card.Title>
           <Card.Text>
             While at General Assembly, I was tasked to create an application
             using React.js and a third party API. Utilizing state, lifecycles,
@@ -34,9 +35,32 @@ const Projects = () => {
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
       </Card>
+      <Card style={{ width: "25rem" }}>
+        <Card.Img
+          variant="bottom"
+          src={require("../assets/studio_ghiblist.png")}
+          height="350"
+        />
+        <Card.Body>
+          <Card.Title>STUDIO GHIBLIST</Card.Title>
+          <Card.Text>
+            While at General Assembly, I was tasked to create an application
+            using React.js and a third party API. Utilizing state, lifecycles,
+            hooks, and Router with React, along with fetch requests, I created a
+            fully functioning, responsive web application in which users can
+            view information about Studio Ghibli movies and create a watchlist
+            with those movies.
+          </Card.Text>
+          <Button variant="primary">Go somewhere</Button>
+        </Card.Body>
+      </Card>
+        </div>
+        
+      
+        </div>
+      
       </div>
       
-    </div>
   );
 };
 
