@@ -25,14 +25,9 @@ const Projects = () => {
         <Card.Body>
           <Card.Title>LOVE LANGUAGE DIRECTORY</Card.Title>
           <Card.Text>
-            While at General Assembly, I was tasked to create an application
-            using React.js and a third party API. Utilizing state, lifecycles,
-            hooks, and Router with React, along with fetch requests, I created a
-            fully functioning, responsive web application in which users can
-            view information about Studio Ghibli movies and create a watchlist
-            with those movies.
+            My full-stack, capstone project for General Assembly — built with Django, PostgreSQL, and React.js. Featuring fully functioning user authentication, users can create an account, add their top 5 love languages to our directory's database, and search the directory for other user's top 5 love languages. To learn more, visit the Github repository.
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Button variant="primary">Visit the Love Language Directory</Button>
         </Card.Body>
       </Card>
       <Card style={{ width: "25rem" }}>
@@ -45,13 +40,15 @@ const Projects = () => {
           <Card.Title>STUDIO GHIBLIST</Card.Title>
           <Card.Text>
             While at General Assembly, I was tasked to create an application
-            using React.js and a third party API. Utilizing state, lifecycles,
-            hooks, and Router with React, along with fetch requests, I created a
+            using React.js and a third party API. I developed a
             fully functioning, responsive web application in which users can
             view information about Studio Ghibli movies and create a watchlist
             with those movies.
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <a target='_blank' href='https://adkowalkowski.github.io/react-api-studio-ghiblist/'>
+          <Button variant="primary">Visit Studio Ghiblist</Button>
+        </a>
+          
         </Card.Body>
       </Card>
         </div>

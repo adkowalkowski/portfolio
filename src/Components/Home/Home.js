@@ -9,7 +9,7 @@ const Home = () => {
         KOWALKOWSKI
       </h1>
       <p class="home-about">
-        I am a full-stack software engineer based in Chicago, United States.
+        Full-stack software engineer based in Chicago, United States.
       </p>
     </div>
   );

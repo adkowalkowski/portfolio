@@ -56,9 +56,9 @@
 }
 
 .card {
+    border: none !important; 
     margin-left: 25px;
     margin-right: 25px; 
     margin-bottom: 20px; 
     text-align: left;
-    border: none; 
 }
