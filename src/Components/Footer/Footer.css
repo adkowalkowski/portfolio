@@ -1,5 +1,6 @@
-.navbar.navbar-expand {
+.footer-container {
     border-top: 0.25px solid black;
+    border-bottom: 0px solid white;
 }
 
 .nav-link {
@@ -28,5 +29,6 @@
 
 .footer-container a:hover {
     background-color:#95C68C;
+    color: black; 
     transform: scale(1.025);
 }

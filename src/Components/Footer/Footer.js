@@ -9,7 +9,7 @@ const Footer = () => {
   
   return (
     <div className='footer'>
-      <Navbar className='footer-container' fixed='bottom'>
+      <Navbar className='footer-container' fixed='bottom' bg="white">
         <Container>
           <Nav></Nav>
           <Nav>

@@ -11,7 +11,7 @@ const Header = () => {
   
   return (
     <div className='header-container'>
-      <Navbar sticky="top">
+      <Navbar sticky="top" bg="white">
         <Container>
           <Nav >
             <Nav.Link as={Link} to="/">
