@@ -1,34 +1,42 @@
 import React from "react";
-import { Navbar, Nav, Container } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import { Route, Link, Routes, BrowserRouter } from "react-router-dom";
 import Home from "../Home/Home";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact";
-import './Header.css'
+import "./Header.css";
 
 const Header = () => {
-  
   return (
-    <div className='header-container'>
-      <Navbar sticky="top" bg="white">
+    <div className="header-container">
+      <Navbar sticky="top" bg="white" collapseOnSelect expand="sm">
         <Container>
-          <Nav >
-            <Nav.Link as={Link} to="/">
-              HOME
-            </Nav.Link>
-          </Nav>
           <Nav>
-          <Nav.Link as={Link} to="/about">
-              ABOUT
-            </Nav.Link>
-            <Nav.Link as={Link} to="/projects">
-              PROJECTS
-            </Nav.Link>
-            <Nav.Link as={Link} to="/contact">
-              CONTACT
-            </Nav.Link>
+            <Navbar.Brand as={Link} to="/">
+              <img
+                src={require("../assets/anthony_headshot.png")}
+                height="100"
+                className="d-inline-block align-top"
+                alt="React Bootstrap logo"
+              />
+            </Navbar.Brand>
           </Nav>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className='me-auto'>
+            <NavDropdown.Item as={Link} to="/about">
+              ABOUT
+            </NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/projects">
+              PROJECTS
+            </NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/contact">
+              CONTACT
+            </NavDropdown.Item>
+          </Nav>
+          </Navbar.Collapse>
+          
         </Container>
         <hr></hr>
       </Navbar>
