@@ -1,0 +1,17 @@
+.project-heading {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 3vh;
+    margin-top: 20px;
+    text-decoration:underline;
+    text-align: center; 
+    letter-spacing: 0.25vw;
+}
+
+.project-paragraph-text {
+    font-family: 'Questrial', sans-serif;
+    margin-top: -20px; 
+    margin-right: 5%;
+    margin-bottom: 40px; 
+    margin-left: 5%;
+    font-size: 20px;
+}
