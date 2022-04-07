@@ -19,7 +19,7 @@ const Projects = () => {
         <Card style={{ width: "25rem" }}>
         <Card.Img 
           variant="bottom"
-          src={require("../assets/studio_ghiblist.png")}
+          src={require("../assets/love_landing_page.png")}
           height="350"
         />
         <Card.Body>
