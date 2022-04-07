@@ -17,7 +17,7 @@ const Projects = () => {
       <div className='project-cards-container'>
         <div className='row no-gutters'>
         <Card style={{ width: "25rem" }}>
-        <Card.Img 
+        <Card.Img className='love-image'
           variant="bottom"
           src={require("../assets/love_landing_page.png")}
           height="350"
