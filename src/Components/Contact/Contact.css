@@ -9,13 +9,14 @@
 
 .contact-form-text {
     font-family: 'Questrial', sans-serif;
-    margin-top: -20px; 
+    margin-top: -10px; 
     margin-right: 5%;
-    margin-bottom: 40px; 
+    margin-bottom: 25px; 
     margin-left: 5%;
     font-size: 20px;
 }
 
-.resume-download {
-    float: left; 
+
+.contact-form-text a {
+    text-decoration: none;
 }
