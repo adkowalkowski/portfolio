@@ -9,7 +9,7 @@ const About = () => {
         <br></br>
         <p>When not working I love spending time outside, staying active, and cooking.</p>
         <br></br>
-        <p>To find out more about me and my work, <a target="_blank" href="https://adkowalkowski.github.io/portfolio/#/contact">send me an email</a> or visit my <a target="_blank" href="https://github.com/adkowalkowski">Github</a> and <a target="_blank" href="https://www.linkedin.com/in/anthony-kowalkowski/">LinkedIn</a>.</p>
+        <p>To find out more about me and my work, <a target="_blank" href="https://adkowalkowski.github.io/portfolio/#/contact">send me an email</a> or visit my <a target="_blank" href="https://github.com/adkowalkowski">GitHub</a> and <a target="_blank" href="https://www.linkedin.com/in/anthony-kowalkowski/">LinkedIn</a>.</p>
     </div>
   );
 };
