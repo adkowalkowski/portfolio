@@ -25,9 +25,11 @@ const Projects = () => {
         <Card.Body>
           <Card.Title>LOVE LANGUAGE DIRECTORY</Card.Title>
           <Card.Text>
-            My full-stack, capstone project for General Assembly — built with Django, PostgreSQL, and React.js. Featuring fully functioning user authentication, users can create an account, add their top 5 love languages to our directory's database, and search the directory for other user's top 5 love languages. To learn more, visit the <a target="_blank" href="https://github.com/adkowalkowski/love-language-client">Github repository</a>.
+            My full-stack, capstone project for General Assembly — built with Django, PostgreSQL, and React. Featuring fully functioning user authentication, users can create an account, add their top 5 love languages to our directory's database, and search the directory for other user's top 5 love languages. To learn more, visit the <a target="_blank" href="https://github.com/adkowalkowski/love-language-client">GitHub repository</a>.
           </Card.Text>
+          <a target='_blank' href='https://adkowalkowski.github.io/love-language-client/'>
           <Button variant="primary">Visit the Love Language Directory</Button>
+        </a>
         </Card.Body>
       </Card>
       <Card style={{ width: "25rem" }}>
@@ -40,13 +42,30 @@ const Projects = () => {
           <Card.Title>STUDIO GHIBLIST</Card.Title>
           <Card.Text>
             While at General Assembly, I was tasked to create an application
-            using React.js and a third party API. I developed a
+            using React and a third party API. I developed a
             fully functioning, responsive web application in which users can
             view information about Studio Ghibli movies and create a watchlist
-            with those movies. To learn more, visit the <a target="_blank" href="https://github.com/adkowalkowski/react-api-studio-ghiblist">Github repository</a>.
+            with those movies. To learn more, visit the <a target="_blank" href="https://github.com/adkowalkowski/react-api-studio-ghiblist">GitHub repository</a>.
           </Card.Text>
           <a target='_blank' href='https://adkowalkowski.github.io/react-api-studio-ghiblist/'>
           <Button variant="primary">Visit Studio Ghiblist</Button>
+        </a>
+          
+        </Card.Body>
+      </Card>
+      <Card style={{ width: "25rem" }}>
+        <Card.Img
+          variant="bottom"
+          src={require("../assets/i-track.png")}
+          height="350"
+        />
+        <Card.Body>
+          <Card.Title>iTRACK</Card.Title>
+          <Card.Text>
+            A MERN (MongoDB, Express.js, React, Node.js) application developed in an agile environment with three other developers. Users can add, delete, or edit departments to better understand the structure of their organization. To learn more, visit the <a target="_blank" href="https://github.com/i-track">GitHub repository</a>.
+          </Card.Text>
+          <a target='_blank' href='https://i-track.github.io/front-end/'>
+          <Button variant="primary">Visit iTrack</Button>
         </a>
           
         </Card.Body>
