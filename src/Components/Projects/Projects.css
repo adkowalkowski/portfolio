@@ -62,6 +62,10 @@
   text-align: left;
 }
 
+.card a {
+  text-decoration: none;
+}
+
 .love-image {
     transform: scaleX(-1);
 }

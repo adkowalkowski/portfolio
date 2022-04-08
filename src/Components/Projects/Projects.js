@@ -25,7 +25,7 @@ const Projects = () => {
         <Card.Body>
           <Card.Title>LOVE LANGUAGE DIRECTORY</Card.Title>
           <Card.Text>
-            My full-stack, capstone project for General Assembly — built with Django, PostgreSQL, and React.js. Featuring fully functioning user authentication, users can create an account, add their top 5 love languages to our directory's database, and search the directory for other user's top 5 love languages. To learn more, visit the Github repository.
+            My full-stack, capstone project for General Assembly — built with Django, PostgreSQL, and React.js. Featuring fully functioning user authentication, users can create an account, add their top 5 love languages to our directory's database, and search the directory for other user's top 5 love languages. To learn more, visit the <a target="_blank" href="https://github.com/adkowalkowski/love-language-client">Github repository</a>.
           </Card.Text>
           <Button variant="primary">Visit the Love Language Directory</Button>
         </Card.Body>
@@ -43,7 +43,7 @@ const Projects = () => {
             using React.js and a third party API. I developed a
             fully functioning, responsive web application in which users can
             view information about Studio Ghibli movies and create a watchlist
-            with those movies.
+            with those movies. To learn more, visit the <a target="_blank" href="https://github.com/adkowalkowski/react-api-studio-ghiblist">Github repository</a>.
           </Card.Text>
           <a target='_blank' href='https://adkowalkowski.github.io/react-api-studio-ghiblist/'>
           <Button variant="primary">Visit Studio Ghiblist</Button>
