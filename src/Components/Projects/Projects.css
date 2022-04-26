@@ -56,6 +56,7 @@
 
 .card {
   border: none !important;
+  margin: 0 auto; 
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 20px;
@@ -71,6 +72,17 @@
 }
 
 @media screen and (max-width: 875px) {
+  .row.no-gutters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 1325px) {
   .row.no-gutters {
     display: flex;
     align-items: center;
