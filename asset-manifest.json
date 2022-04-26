@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.aa31d7f0.css",
+    "main.css": "/portfolio/static/css/main.56156f2f.css",
     "main.js": "/portfolio/static/js/main.402d5e6f.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/anthony_headshot.png": "/portfolio/static/media/anthony_headshot.6e1ba15bcf375ee500f6.png",
@@ -9,12 +9,12 @@
     "static/media/Kowalkowski_Resume.pdf": "/portfolio/static/media/Kowalkowski_Resume.c00238d40ca88e7f7799.pdf",
     "static/media/i-track.png": "/portfolio/static/media/i-track.592d44e51f62abd1cacf.png",
     "index.html": "/portfolio/index.html",
-    "main.aa31d7f0.css.map": "/portfolio/static/css/main.aa31d7f0.css.map",
+    "main.56156f2f.css.map": "/portfolio/static/css/main.56156f2f.css.map",
     "main.402d5e6f.js.map": "/portfolio/static/js/main.402d5e6f.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa31d7f0.css",
+    "static/css/main.56156f2f.css",
     "static/js/main.402d5e6f.js"
   ]
 }
